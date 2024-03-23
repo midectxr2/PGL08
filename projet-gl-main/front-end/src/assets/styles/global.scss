@@ -1,0 +1,52 @@
+$phonecolor: #392968;
+$deskcolor: #5a37c3;
+
+// Fonts
+$fontAsap: 'Asap', sans-serif;
+
+#app {
+  font: 400 16px 'Varela Round', sans-serif;
+
+  background-color: $phonecolor;
+  font-family: $fontAsap;
+  height: 100vh;
+  height: 100lvh;
+  width: 100vw;
+  margin: 0;
+  padding: 2vh 2vw;
+  display: block;
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* WebKit (Chrome, Safari) */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #9951ff inset !important;
+  -webkit-text-fill-color: white
+}
+
+/* Microsoft Edge */
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+select:-ms-input-placeholder {
+  -webkit-box-shadow: 0 0 0 1000px #9951ff inset !important;
+  -webkit-text-fill-color: white
+}
+
+@media only screen and (min-width: 600px) {
+  #app {
+    background-color: $deskcolor;
+  }
+}

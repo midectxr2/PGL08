@@ -1,0 +1,99 @@
+$bgColor: #9951ff;
+
+
+.form-container {
+  width: 81vw;
+  margin: 1vh auto;
+  padding: 40px;
+  position: relative;
+  background: $bgColor;
+
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+  h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+
+  .form-input-group {
+    position: relative;
+
+    input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+
+
+    }
+
+    label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 13px;
+      pointer-events: none;
+      transition: .5s ease;
+    }
+
+    input:focus ~ label,
+    input:not(:placeholder-shown) ~ label {
+      top: -20px;
+      left: 0;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    input:not(:valid) ~ label {
+      color: #bd0000;
+    }
+
+    input:valid ~ label {
+      color: $bgColor;
+    }
+
+    input:placeholder-shown ~ label {
+      color: #fff;
+    }
+
+    input:focus ~ label {
+      color: #000000;
+    }
+
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .form-container {
+    width: 60vw;
+
+    .form-input-group {
+      label {
+        font-size: 16px;
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form-container {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .form-container {
+    width: 30vw;
+  }
+}

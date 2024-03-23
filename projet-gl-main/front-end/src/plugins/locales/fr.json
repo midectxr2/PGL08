@@ -1,0 +1,237 @@
+{
+  "locale": {
+      "en": "Anglais",
+      "fr": "Français"
+  },
+  "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "logout": "Se déconnecter"
+  },
+  "home": {
+      "header": "Bienvenue !"
+  },
+  "about": {
+      "header": "À propos de nous",
+      "p" : "Nous sommes l'université NASA"
+  },
+  "button": {
+      "sayHello": "Dire Bonjour !"
+  },
+  "login" : {
+      "passwd": "Mot de passe",
+      "email": "Email",
+      "connexion": "Connexion",
+      "notReg": "Pas encore inscrit ?",
+      "manReg": "Gère ton inscription !",
+      "msg": "Si vous avez déjà un compte, veuillez vous connecter."
+  },
+  "headerComp": {
+      "title": "Systeme de Gestion universitaire"
+  },
+  "linksTitle": {
+      "login": "Se connecter",
+      "register": "Créer un compte"
+  },
+  "student": {
+      "home": {
+          "button": {
+              "regFee": "Frais d'inscription",
+              "regStatus": "Vérifier status d'inscription",
+              "regHist": "Historique d'inscription",
+              "editData": "Modifier données",
+              "regAgain": "Se réinscrire",
+              "unReg": "Se désinscrire"
+          }
+      }
+  },
+  "data": {
+      "title": "Mes données",
+      "fname": "Prénom",
+      "lname": "Nom",
+      "persNmb": "Matricule",
+      "compEmail": "Email scolaire",
+      "phoneNmb": "Numéro de téléphone"
+  },
+  "lang": {
+      "title": "Langue"
+  },
+  "form": {
+      "login": "Se connecter",
+      "register": "S'inscrire"
+  },
+  "login-page": {
+      "matricule": "Matricule",
+      "password" : "Mot de passe",
+      "prompt-account" : "Si vous avez déjà un compte, veuillez vous connecter",
+      "login" : "Connexion",
+      "notReg" : "Pas encore inscrit ?",
+      "manageReg" : "Gère ton inscription !",
+      "publiSci" : "Publications scientifiques",
+      "globalPrompt" : "Bienvenue sur le site de NASA !",
+      "error" : "Email ou mot de passe invalide. Veuillez réessayer."
+  },
+  "home-page": {
+      "globalPrompt" : "Université NASA : connecté "
+  },
+  "my-data" :{
+      "title" : "Mes données",
+      "name" : "Nom :",
+      "firstname" : "Prénom :",
+      "matricule" : "Matricule :",
+      "perso-email" : "Email personnel : ",
+      "phone-number" : "Numéro de téléphone : ",
+      "address" : "Adresse: ",
+      "school-email" : "Email scolaire : "
+  },
+  "my-actions" :{
+      "title" : "Mes actions"
+  },
+  "leftButtons": {
+      "register-fees": "Frais d'inscription",
+      "check_enrollment_status": "Vérifier Statut d'Inscription",
+      "enrollment_history": "Historique d'Inscription",
+      "modify_data": "Modifier Données",
+      "aca-infos" : "Informations académiques",
+      "re_enroll": "Se Réinscrire",
+      "unenroll": "Se Désinscrire",
+      "list_courses": "Lister les cours",
+      "manage_exemption_requests": "Gérer les demandes de dispense",
+      "manage_diploma_equivalences": "Gérer équivalence diplôme",
+      "switch_to_student_view": "Connexion en tant que élève",
+      "request_personal_data_modifications": "Demande modifications données personnelles",
+      "create_course": "Créer cours",
+      "list_students_and_status": "Lister étudiants et status",
+    "procedures_management": "Gérer les procédures d'inscription",
+      "process_registration_requests": "Traiter demandes d'inscriptions",
+      "view_registration_history": "Voir historique d'inscription",
+      "view_registration_request_status": "Voir statut demandes d'inscriptions",
+      "process_scholarship_requests": "Traiter demandes de bourses",
+    "notifications": "Notifications"
+  },
+  "roles": {
+    "teacher": "en tant qu'enseignant",
+    "student": "en tant qu'étudiant",
+    "secretary": "en tant que membre du secrétariat",
+    "registration_service": "en tant que membre du service d'inscription"
+  },
+  "actionButtons":{
+    "messages" : "Messagerie",
+    "schedule" : "Horaires"
+  },
+  "course-modifier": {
+    "title" : "Liste des cours",
+    "modify" : "Modifier",
+    "succes" : "Les modifications ont été enregistrées avec succès ",
+    "error" : "Il s'est passé une erreur lors de l'enregistrement"
+  },
+  "course-modifier-secr":{
+    "delete" : "Supprimer",
+    "succes" : "Le cours a bien été supprimé",
+    "error" : "Erreur durant la suppression du cours"
+  },
+  "create-course": {
+    "title" : "Créer un nouveau cours",
+    "course-name" : "Nom du cours",
+    "credits" : "Crédits",
+    "id" : "Id",
+    "create" : "Créer cours",
+    "succes" : "Cours créé avec succès",
+    "error" : "Erreur durant la création du cours. Veuillez réessayer"
+  },
+  "register-fees" : {
+    "title" : "Frais d'inscription",
+    "error" : "Erreur lors de la récupération des données",
+    "rest" : "Il vous reste encore ",
+    "to-pay" : "€ à payer."
+  },
+  "registration-status" : {
+    "title" : "Statut d'inscription",
+    "succes" : "Vous etes incrit pour cette année académique",
+    "in-progress" : "Vous etes en cours d'inscription",
+    "not-found" : "Impossible d'obtenir le statut. Veuillez réessayer dans quelques minutes"
+  },
+  "modify-data" :{
+    "title" : "Modifier les données personnelles",
+    "address" : "Adresse :",
+    "address2" : "Adresse 2 :",
+    "phone-number" : "Numéro de téléphone : ",
+    "email" : "Email personnel :",
+    "modify" : "Modifier",
+    "city" : "Ville : ",
+    "region" : "Region :",
+    "postal-code" : "Code postal :",
+    "country" : "Pays :",
+    "success-message" : "Données modifiées avec succès !",
+    "error-message" : "Erreur durant la modification des données."
+  },
+  "register" :{
+    "title" : "Inscription pour l'année académique",
+    "year" : "Année académique",
+    "select-year" : "Sélectionner une année",
+    "select-cursus" : "Sélectionner un cursus ",
+    "it" : "Informatique",
+    "mathematics" : "Mathématiques",
+    "biology" :"Biologie",
+    "chemistry" : "Chimie",
+    "physics" : "Physique",
+    "register" : "S'inscrire",
+    "succes" : "Inscrit avec succès",
+    "error" : "Vous etes déja inscrit a un cursus. Veuillez vous désinscrire de celui ci",
+    "submitBtn": "Envoyer",
+    "passwd": "Mot de passe",
+    "fname": "Prénom",
+    "lname": "Nom",
+    "email": "Email",
+    "confpwd": "Confirmez votre mot de passe"
+
+  },
+  "unregister" :{
+    "title" : "Désinscription de l'année académique",
+    "unroll" : "Se désincrire",
+    "succes" : "Désincrit avec succès",
+    "error": "Erreur durant la désincription, veuillez réessayer. ",
+    "registred" : "Vous n'etes pas encore inscrit a un cursus "
+  },
+  "aca-infos":{
+    "title" : "Informations académiques",
+    "cursus" : "Cursus : ",
+    "level" : "Niveau : ",
+    "aca-year" : "Année académique : ",
+    "my-courses" : "Mes cours",
+    "re-roll" : "Se réinscrire",
+    "unroll" : "Se désinscrire"
+  },
+  "list-course" :{
+    "title" : "Liste des cours",
+    "id" : "Id :",
+    "credits" : "Crédits : ",
+    "name" : "Titre : ",
+    "refresh" : "Rafraichir",
+    "modify-title" : "Modifier Titre",
+    "modify-credits" : "Modifier Crédits",
+    "confirm" : "Confirmer",
+    "cancel" : "Annuler",
+    "delete" : "Supprimer",
+    "affect-teacher" : "Affecter un enseignant",
+    "teacher" : "Enseignant : ",
+    "sure": "Êtes vous sûr ?"
+  },
+  "notifs" :{
+    "zero" : "Pas de notifications"
+  },
+  "student-management":{
+    "title" : "Page de gestion des étudiants"
+  },
+  "procedure-management":{
+    "title" : "Page de gestion des procédures",
+    "accept" : "Accepter",
+    "reject" : "Rejeter",
+    "firstname" : "Prénom :",
+    "lastname" : "Nom :",
+    "no-procedure" : "Aucune procédure requise "
+  },
+  "pop-up":{
+    "close":"Fermer"
+  }
+}

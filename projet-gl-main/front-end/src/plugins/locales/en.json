@@ -1,0 +1,238 @@
+{
+  "locale": {
+    "en": "English",
+    "fr": "French"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "logout": "Log out"
+  },
+  "home": {
+    "header": "Welcome!"
+  },
+  "about": {
+    "header": "About us",
+    "p" : "We are NASA University"
+  },
+  "button": {
+    "sayHello": "Say Hello!"
+  },
+  "login-page": {
+    "matricule": "Matricule",
+    "password": "Password",
+    "prompt-account" : "If you aldready have an account, please log in",
+    "login" : "Login",
+    "notReg" : "Not registered yet?",
+    "manageReg" : "Manage your registration ! ",
+    "publiSci" : "Scientific publications",
+    "globalPrompt" : "Welcome on NASA website !",
+    "error" : "Invalid email or password. Please try again."
+  },
+  "home-page": {
+    "globalPrompt" : "NASA university : connected "
+  },
+  "my-data" :{
+    "title" : "My data",
+    "name" : "Name :",
+    "firstname" : "Firstname :",
+    "matricule" : "Matricule :",
+    "perso-email" : "Personal email : ",
+    "phone-number" : "Phone number : ",
+    "address" : "Address : ",
+    "school-email" : "School email : "
+  },
+  "my-actions" :{
+      "title" : "My actions"
+  },
+  "leftButtons": {
+    "register-fees": "Register Fees",
+    "check_enrollment_status": "Check Enrollment Status",
+    "enrollment_history": "Enrollment History",
+    "modify_data": "Modify Data",
+    "aca-infos" : "Academic informations",
+    "re_enroll": "Re-enroll",
+    "unenroll": "Unenroll",
+    "list_courses": "List Courses",
+    "manage_exemption_requests": "Manage Exemption Requests",
+    "manage_diploma_equivalences": "Manage Diploma Equivalences",
+    "switch_to_student_view": "Switch to Student View",
+    "request_personal_data_modifications": "Request Personal Data Modifications",
+    "create_course": "Create Course",
+    "list_students_and_status": "List Students and Status",
+    "process_registration_requests": "Process Registration Requests",
+    "procedures_management": "Manage enrollment procedures",
+    "process_unregistration_requests": "Process Unregistration Requests",
+    "view_registration_history": "View Registration History",
+    "view_registration_request_status": "View Registration Request Status",
+    "process_scholarship_requests": "Process Scholarship Requests",
+    "notifications": "Notifications"
+  },
+  "roles": {
+    "teacher": "as a teacher",
+    "student": "as a student",
+    "secretary": "as a secretary",
+    "registration_service": "as a member of the registration service"
+  },
+  "actionButtons" :{
+    "messages" : "Messaging service",
+    "schedule" : "Schedule"
+  },
+  "course-modifier": {
+    "title" : "Course list",
+    "modify" : "Modify",
+    "succes" : "Modifications are successfully saved",
+    "error" : "Error while saving modifications"
+  },
+  "course-modifier-secr":{
+    "delete" : "Delete",
+    "succes" : "Course successfully deleted",
+    "error" : "Error while deleting the course"
+  },
+  "create-course": {
+    "title" : "Create new course",
+    "course-name" : "Course name",
+    "credits" : "Credits",
+    "id" : "Id",
+    "create" : "Create course",
+    "succes" : "Course successfully created",
+    "error" : "Error while creating the course"
+  },
+  "register-fees" : {
+    "title" : "Regsiter Fees",
+    "error" : "Error while fetching register fees",
+    "rest": "You still have",
+    "to-pay" : "€ left to pay."
+  },
+  "registration-status" : {
+    "title" : "Register status",
+    "succes" : "You are currently register during this academic year",
+    "in-progress" : "Your status is in progress",
+    "not-found" : "Impossible to get the satus. Please try again later"
+  },
+  "modify-data" :{
+    "title" : "Modify personal data",
+    "address" : "Address :",
+    "address2" : "Address 2 :",
+    "phone-number" : "Phone number :",
+    "email" : "Personal email :",
+    "modify" : "Modify",
+    "city" : "City : ",
+    "region" : "Region :",
+    "postal-code" : "Postal code :",
+    "country" : "Country :",
+    "success-message" : "Datas are successfully modified",
+    "error-message" : "Error while modifying datas"
+    },
+  "register": {
+    "title" : "Register for the academic year",
+    "year" : "Academic year",
+    "select-year" : "Select academic year",
+    "select-cursus" : "Select cursus",
+    "it" : "IT",
+    "mathematics" : "Mathematics",
+    "biology" :"Biology",
+    "chemistry" : "Chemistry",
+    "physics" : "Physics",
+    "register" : "Register",
+    "succes" : "Successfully registred",
+    "error" : "You are already enrolled in a course. Please unsubscribe from it",
+    "submitBtn": "Submit",
+    "passwd": "Password",
+    "fname": "First name",
+    "lname": "Lastname",
+    "email": "E-mail",
+    "confpwd": "Confirm your password"
+  },
+  "unregister": {
+    "title" : "Unroll from academic year",
+    "unroll" : "Unroll",
+    "succes" : "Successfully unrolled",
+    "error": "Error while unrolling",
+    "registred" : "You are not registered yet"
+  },
+  "login": {
+    "passwd": "Password",
+    "email": "E-mail",
+    "connexion": "Login",
+    "notReg": "Not registered yet?",
+    "manReg": "Manage your registration!",
+    "msg": "If you already have an account, please log in."
+  },
+  "headerComp": {
+    "title": "University management system"
+  },
+  "linksTitle": {
+    "login": "Login",
+    "register": "Register"
+  },
+  "student": {
+    "home": {
+      "button": {
+        "regFee": "Registration fees",
+        "regStatus": "Check registration status",
+        "regHist": "Registration history",
+        "editData": "Edit data",
+        "regAgain": "Re-Register",
+        "unReg": "Unregister"
+      }
+    }
+  },
+  "data": {
+    "title": "My Data",
+    "fname": "Firstname",
+    "lname": "Lastname",
+    "persNmb": "Personnel number",
+    "compEmail": "School e-mail",
+    "phoneNmb": "Phone number"
+  },
+  "lang": {
+    "title": "Language"
+  },
+  "form": {
+    "login": "Login",
+    "register": "Register"
+  },
+  "aca-infos":{
+    "title" : "Academic Informations",
+    "cursus" : "Cursus : ",
+    "level" : "Level : ",
+    "aca-year" : "Academic Year : ",
+    "my-courses" : "My Courses",
+    "re-roll" : "Re-Enroll",
+    "unroll" : "Unroll"
+  },
+  "list-course" :{
+    "title" : "Course List  ",
+    "id" : "Id : ",
+    "credits" : "Credits : ",
+    "name" : "Title : ",
+    "refresh" : "Refresh",
+    "modify-title" : "Modify Title",
+    "modify-credits" : "Modify Credits",
+    "confirm" : "Confirm",
+    "cancel" : "Cancel",
+    "delete" : "Delete",
+    "affect-teacher" : "Affect a teacher",
+    "teacher" : "Teacher : ",
+    "sure": "Are you sure ?"
+
+  },
+  "notifs" :{
+    "zero" : "No notifications"
+  },
+  "student-management":{
+    "title" : "Student Management page"
+  },
+  "procedure-management":{
+    "title" : "Procedure Management page",
+    "accept" : "Accept",
+    "reject" : "Reject",
+    "firstname" : "Firstname :",
+    "lastname" : "Lastname :",
+    "no-procedure" : "No procedure requested"
+  },
+  "pop-up":{
+    "close":"Close"
+  }
+}
